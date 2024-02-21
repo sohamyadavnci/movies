@@ -25,7 +25,7 @@ SECRET_KEY = '%pnx#&9on%3ua-=*gx6+qb@v4v@f#!lr_2o8)cg=f*_py6gfwo'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['movieeb-env.eba-p8mpj5my.eu-west-1.elasticbeanstalk.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
