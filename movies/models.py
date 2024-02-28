@@ -4,15 +4,11 @@ from django.db import models
 from django.shortcuts import loader
 
 class Movie(models.Model):
-    
-    
- title = models.CharField(max_length=200)
- director = models.CharField(max_length=30)
- release_date = models.DateTimeField('release date')
- genre = models.CharField(max_length=200)
- duration = models.FloatField()
+    title = models.CharField(max_length=200)
+    director = models.CharField(max_length=30)
+    release_date = models.DateTimeField('release date')
+    genre = models.CharField(max_length=200)
+    duration = models.FloatField()
 
-
-    
- def __str__(self):
-    return self.title + " - " + self.director
+    def __str__(self):
+        return self.title + " - " + self.director
