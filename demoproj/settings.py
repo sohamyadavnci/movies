@@ -26,7 +26,7 @@ SECRET_KEY = '%pnx#&9on%3ua-=*gx6+qb@v4v@f#!lr_2o8)cg=f*_py6gfwo'
 DEBUG = True
 
 #ALLOWED_HOSTS = ['5568d1eae5bd4e438f46576886884224.vfs.cloud9.eu-west-1.amazonaws.com']
-ALLOWED_HOSTS = ['movieeb-env.eba-p8mpj5my.eu-west-1.elasticbeanstalk.com']
+ALLOWED_HOSTS = ['x23173394ebsredo-env.eba-xd6hi6s3.eu-west-1.elasticbeanstalk.com/']
 
 # Application definition
 
