@@ -1,4 +1,8 @@
+
+
 version: 0.2
+
+# Configuration file for Code build
 
 phases:
     install:

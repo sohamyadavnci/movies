@@ -1,6 +1,8 @@
-#!/usr/bin/env python
+"""Management script for handling various tasks in the project."""
 import os
 import sys
+
+
 
 if __name__ == '__main__':
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'demoproj.settings')
