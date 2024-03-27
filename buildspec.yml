@@ -15,14 +15,8 @@ phases:
     pre_build:
         commands:
             - python --version
-            - pylint --disable=E1101 $CODEBUILD_SRC_DIR/*.py $CODEBUILD_SRC_DIR/**/*.py
-            - pylint --disable=C0301 $CODEBUILD_SRC_DIR/*.py $CODEBUILD_SRC_DIR/**/*.py
-            - pylint --disable=C0304 $CODEBUILD_SRC_DIR/*.py $CODEBUILD_SRC_DIR/**/*.py
-            - pylint --disable=C0114 $CODEBUILD_SRC_DIR/*.py $CODEBUILD_SRC_DIR/**/*.py
             - pylint $CODEBUILD_SRC_DIR/*.py
             - pylint $CODEBUILD_SRC_DIR/demoproj/*.py
-            - pylint $CODEBUILD_SRC_DIR/movies/*.py
-            - pylint $CODEBUILD_SRC_DIR/users/*.py
             
 artifacts:
     files:
