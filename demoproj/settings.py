@@ -26,7 +26,7 @@ SECRET_KEY = '%pnx#&9on%3ua-=*gx6+qb@v4v@f#!lr_2o8)cg=f*_py6gfwo'
 DEBUG = True
 
 #ALLOWED_HOSTS = ['5568d1eae5bd4e438f46576886884224.vfs.cloud9.eu-west-1.amazonaws.com']
-ALLOWED_HOSTS = ['x23173394ebnewattempt-env.eba-bueatmha.eu-west-1.elasticbeanstalk.com', '5568d1eae5bd4e438f46576886884224.vfs.cloud9.eu-west-1.amazonaws.com']
+ALLOWED_HOSTS = ['x23173394ebnewattempt-env.eba-bueatmha.eu-west-1.elasticbeanstalk.com', '5568d1eae5bd4e438f46576886884224.vfs.cloud9.eu-west-1.amazonaws.com'] # pylint: disable=line-too-long
 
 # Application definition
 
@@ -122,3 +122,4 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 LOGIN_REDIRECT_URL = '/'
+

@@ -27,3 +27,4 @@ urlpatterns = [
     path('signout/', auth_views.LogoutView.as_view(
         template_name='users/signout.html'), name='sign_out')
     ]
+    # pylint: disable=missing-final-newline
